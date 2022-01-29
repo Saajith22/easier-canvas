@@ -4,17 +4,27 @@
   "description": "easier-canvas NPM Package!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Saajith22/easier-canvas.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "saajith",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Saajith22/easier-canvas/issues"
   },
-  "homepage": "https://github.com/Saajith22/easier-canvas#readme"
+  "homepage": "https://github.com/Saajith22/easier-canvas#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "canvas": "^2.9.0"
+  }
 }
